@@ -1,0 +1,203 @@
+.relative-box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    float: left;
+    position: relative;
+    z-index: 1;
+    left: 130px;
+    top: 150px;
+
+    /* margin nesneler arasındaki uzaklığı ayarlar.
+position kullandığında margin iş görmez.
+Position aslında = Öteleme*/
+}
+
+.relative-box2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 255);
+    float: left;
+    position: relative;
+    z-index: 2;
+    /* margin nesneler arasındaki uzaklığı ayarlar.
+position kullandığında margin iş görmez.
+Position aslında = Öteleme*/
+}
+
+.relative-box3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(64, 255, 0);
+    float: left;
+    position: relative;
+    z-index: 3;
+    right: 150px;
+    top: 25px;
+}
+
+
+/* STATIC POSITION */
+
+.box {
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    float: left;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.static-box1 {
+    position: static;
+    left: 100px;
+    /* static yapı hiçbir zaman 
+left,right, bottom, top değeri almaz.
+static yapı sadece bulunduğu yeri belirtir. */
+}
+
+
+.static-box3 {
+    position: relative;
+}
+
+.static-relative-box {
+    position: relative;
+    left: 300px;
+    padding: 10px;
+}
+
+
+/* FIXED */
+/* Staticten farkı fixed ekranda sabit kalır.
+sayfada değil */
+.fixed-box1 {
+    height: calc(100px - 40px) !important;
+    position: fixed;
+    bottom: 100px;
+    right: 200px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+
+.fixed-box2 {
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(227, 238, 235);
+    font-weight: bold;
+}
+
+
+/* ABSOLUTE */
+/* eğer kendisini kaosayan bir nesne yok ise
+web sitenin boyutuna göre kendini konumlandırır.
+eğer bir nesne içindeyse nesneye göre konumlanır. */
+.absolute-box {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+
+}
+
+.arb {
+    /* arb = absolute relative box */
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border: 3px solid gray;
+
+}
+
+
+/* STICKY */
+
+.sticky{
+    padding: 10px;
+    position: sticky;
+    /* safari de kullanılamıyor bu özellik     position: sticky;
+    bu yüzden     position: -webkit-sticky;
+ i de ekle */
+ top: 0px;
+/* top: 0px; ile anasayfa kısmını sabitledik */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */

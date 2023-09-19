@@ -1,0 +1,127 @@
+.box1 {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(137, 43, 226, 0.573);
+    overflow: visible;
+    float: left;
+}
+
+
+.box2 {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(226, 43, 226, 0.573);
+    float: left;
+    overflow: hidden;
+    /* overflow hidden yaprsan yazı kutunun içine girer */
+}
+
+.box3 {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(43, 226, 186, 0.573);
+    float: left;
+    overflow: scroll;
+    /* overflow hidden yaprsan yazı kutunun içine girer */
+}
+
+.box4 {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(226, 147, 43, 0.573);
+    float: left;
+    overflow: auto;
+}
+
+.box5 {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(226, 147, 43, 0.573);
+    float: left;
+    overflow: auto;
+}
+
+.box6 {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(226, 147, 43, 0.573);
+    float: left;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+/* imgOverFlow HTML BÖLÜMÜ */
+
+.resim {
+    width: calc(25% - 40px);
+
+overflow: hidden;
+text-align: center;
+vertical-align: middle;
+margin: 10px;
+padding: 10px;
+float: left;
+background-color: aqua;
+}
+
+.resim img{
+    max-width: 400px;
+    height: auto;
+vertical-align: baseline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */

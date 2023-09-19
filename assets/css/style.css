@@ -1,0 +1,147 @@
+.table,
+.table td, .table th {
+    border: 2px solid rgb(184, 1, 1);
+}
+
+/* ikili çizgi sistemini iptal eder */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.table th {
+    height: 70px;
+    text-align: left;
+}
+
+.table td {
+    height: 40px;
+    vertical-align: bottom;
+    /* içeriğin belirli bir yöne yaslanmasını sağlar */
+    text-align: right;
+    /* içeriğin hizalanmasını sağlar */
+}
+
+/* tablo2 */
+.table2 {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table2,
+.table2 td,
+.table2 th {
+    border: 3px solid purple;
+
+}
+
+.table2 th {
+    height: 70px;
+    text-align: left;
+}
+
+.table2 td {
+    padding: 10px;
+}
+
+
+/* tablo-row  */
+.table-row {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-row,
+.table-row td,
+.table-row th {
+    border: 2px solid green;
+
+}
+
+.table-row th {
+    height: 70px;
+    text-align: left;
+}
+
+.table-row td {
+    height: 60px;
+    text-align: right;
+    vertical-align: top;
+}
+
+
+/* table-row2 */
+.table-row2 {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-row2 th,
+.table-row2 td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 3px solid orange;
+}
+
+
+
+/* table-row3 */
+.table-row3 {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-row3 th,
+.table-row3 td {
+    padding: 5px;
+    text-align: left;
+}
+
+.table-row3 th :nth-child(even) {
+    background-color: aquamarine;
+}
+
+
+/* table-row4 */
+.table-row4 {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: bisque;
+    color: brown;
+}
+
+.table-row4 th,
+.table-row4 td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 3px solid grey;
+}
+
+.table-row4 tr:nth-child(even) {
+    background-color: aquamarine;
+color: blueviolet;
+}
+
+/* .table-red{
+    width: 100%;
+background-color: red;
+color: wheat;
+} */
+
+.table-blue{
+    width: 100%;
+    background-color: blue;
+    color: antiquewhite;
+}
+
+.table-cell-active{
+    background-color: blueviolet;
+}
+
+
+.yatay{
+    writing-mode: vertical-rl;
+}
+
+
