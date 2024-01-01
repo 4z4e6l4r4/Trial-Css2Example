@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- <div class="content"> -->
+
+    <div class="content">
+
+        <ul class="bar-menu">
+            <li>Anasayfa</li>
+            <li>Hakkımızda</li>
+            <li><a class="hover" href="#hedef"> Galeri</a></li>
+            <li>iletişim</li>
+        </ul>
+
+        <!--dgddddhfdjgj  -->
+
+        <div class="social" id="hedef">
+            <ul class="social-media">
+                <li>Doğa Resimleri</li>
+                <li>İnsan Resimleri</li>
+                <li>Araba Resimleri</li>
+                <li>Hayvan Resimleri</li>
+                <li>Abstract Resimleri</li>
+            </ul>
+        </div>
+    </div>
+
+
+<style>
+    .list {
+    display: inline;
+}
+
+strong {
+    display: block;
+    /* yan yana olan metinleri alt alta hizalıyor */
+}
+
+.hidden {
+    display: none;
+    /* display: none; ekrandan görünürlüğü kalkar ve yerinde bir şey yokmuş gibi davranır. */
+}
+
+.hidden2 {
+    visibility: hidden;
+    /* Ekranda görünmez ama yerini korur */
+}
+
+.bar-menu {
+    list-style: none;
+    float: left;
+    background-color: black;
+    color: aliceblue;
+    width: 730px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+ 
+    text-align: center;
+
+}
+
+.bar-menu li {
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+}
+
+/* EXAMPLE BÖLÜMÜ */
+
+.content {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.social {
+    margin-top: 60px;
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    padding: 8px !important;
+    background-color: bisque;
+    border-radius: 15px;
+    left: 400px;
+}
+
+.social .social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.social .social-media li{
+    display: block;
+    background-color: rgb(0, 0, 0);
+    color: rgb(216, 187, 151);
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+
+.hover {
+    background-color: black;
+    color: aliceblue;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.content:hover .social {
+    display: block;
+}
+
+.hover:target+.social {
+    display: block;
+}
+
+</style>
+
+</body>
+
+</html>
